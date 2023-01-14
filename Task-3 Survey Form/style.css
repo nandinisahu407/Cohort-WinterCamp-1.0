@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 30px;
+    min-height: 100vh;
+    display: block;
+    background: url("sunsetimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainheading{
+    color: rgb(144, 101, 184);
+    margin: 20px auto;
+    text-align: center;
+}
+
+.form-control{
+    margin: 50px auto;
+    padding: 50px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 4px 8px 16px rgb(118, 118, 230);
+}
+
+.divider{
+    margin: auto;
+    max-width: 25%;
+    height: 2px;
+    color: rgb(224, 95, 95);
+}
+
+.options{
+    display:inline;
+    margin-bottom: 5px;
+
+}
+
+input,select,textarea{
+    border-radius: 4px;
+    box-shadow: 3px 8px 13px rgb(154, 151, 151);
+    margin-bottom: 5px;
+}
+
+label{
+    margin-bottom: 7px;
+    /* font-weight: 400; */
+}
+
+.sectionhead{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type=submit]{
+    border: none;
+    background-color: rgba(112, 21, 216, 0.949);
+    color: antiquewhite;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 25%;
+    font-weight: 600;
+    align-self: center;
+    
+}
+
+input[type=text]{
+    padding: 7px 7px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+input[type=email]{
+    padding: 7px 7px;
+    border-radius: 5px;
+    width: 50%;
+}
