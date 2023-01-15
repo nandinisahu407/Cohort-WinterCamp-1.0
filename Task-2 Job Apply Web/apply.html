@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apply</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            padding: 30px;
+            min-height: 100vh;
+            display: block;
+            background: url("apply1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .mainheading{
+            color: rgb(201, 166, 233);
+            margin: 20px auto;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .form-control{
+            margin: 50px auto;
+            padding: 50px;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            background-color: antiquewhite;
+            border: 1px solid black;
+            border-radius: 9px;
+            box-shadow: 4px 8px 16px rgb(118, 118, 230);
+        }
+
+        .divider{
+            margin: auto;
+            max-width: 25%;
+            height: 2px;
+            color: rgb(224, 95, 95);
+        }
+
+        .options{
+            display:inline;
+            margin-bottom: 5px;
+
+        }
+
+        input,select,textarea{
+            border-radius: 4px;
+            box-shadow: 2px 6px 10px rgb(154, 151, 151);
+            margin-bottom: 5px;
+        }
+
+        label{
+            margin-bottom: 7px;
+            /* font-weight: 400; */
+        }
+
+        
+
+        input[type=submit]{
+            border: none;
+            background-color: rgba(112, 21, 216, 0.949);
+            color: antiquewhite;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin: 5px;
+            width: 25%;
+            font-weight: 600;
+            align-self: center;
+            
+        }
+
+        .resume{
+            margin: 5px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mainheading">Apply Now</h1>
+        <hr class="divider">
+        <form action="" class="form-control">
+            <label for="">Name: </label>
+            <input type="text" required>
+            <label for="">Email: </label>
+            <input type="email" required>
+            
+            <label for="">Address</label>
+            <textarea name="add" id="" cols="30" rows="10" style="width: 489px; height: 60px;"></textarea>
+            <label for="">Position to Apply: </label>
+            <select name="" id="">
+                <option value="">UI Developer Intern</option>
+                <option value="">machine Learning Engineer</option>
+                <option value="">Acloud Engineer</option>
+                
+            </select>
+            <label for="">Preferred Location: </label>
+            <select name="" id="">
+                <option value="">Hyderabad</option>
+                <option value="">Banglore</option>
+                <option value="">Delhi</option>
+                <option value="">Korea</option>
+                <option value="">USA</option>
+            </select>
+
+            <div class="options" style="margin-top: 5px;">
+                <label for="">Gender: </label>
+                <input type="radio">
+                <label for="">Male</label>
+                <input type="radio">
+                <label for="">Female</label>
+                <input type="radio">
+                <label for="">other</label>
+
+            </div>
+
+            <div class="resume">
+                <label for="">Upload Your Resume</label>
+                <input type="file" accept=".pdf">
+            </div>
+            
+            <input type="submit" name="" id="">
+
+
+        </form>
+
+    </div>
+
+    
+    
+</body>
+</html>
