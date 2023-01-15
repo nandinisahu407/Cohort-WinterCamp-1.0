@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.logoimg{
+    width: 150px;
+}
+
+.navlink{
+    color: black;
+    display: flex;
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.navlink:hover{
+    border-bottom: 3px solid rgb(133, 133, 220);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px 30px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+.headings{
+    background-color: black;
+    font-size: 25px;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.largephoto, .smallphoto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.ph{
+    display: flex;
+    flex: 49%;
+    max-width: 49%;
+    padding: 15px;
+    height: 350px;
+    box-shadow: inset 0 -50px 120px -20px rgb(31, 31, 31);
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px;
+}
+
+.ph1{
+    background: url("images/ph1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.ph2{
+    background: url("images/ph2.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.ph3{
+    background: url("images/ph3.jpg") no-repeat;
+    background-size: cover;
+}
+
+.ph4{
+    background: url("images/ph4.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.st{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.mp{
+    display: flex;
+    flex: 32%;
+    flex-direction: row;
+    max-width: 32%;
+    padding: 15px;
+    height: 240px;
+    margin: 10px 0px;
+    box-shadow: inset 0 -50px 120px -20px rgb(31, 31, 31);
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.mp1{
+    background: url("images/m1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.mp2{
+    background: url("images/m2.jpg.crdownload") no-repeat;
+    background-size: cover;
+}
+
+.mp3{
+    background: url("images/m3.jpg") no-repeat;
+    background-size: cover;
+}
+
+.mp4{
+    background: url("images/m4.jpg") no-repeat;
+    background-size: cover;
+}
+
+.mp5{
+    background: url("images/m5.jpg") no-repeat;
+    background-size: cover;
+}
+.mp6{
+    background: url("images/m6.jpg") no-repeat;
+    background-size: cover;
+}
+
+p{
+    background-color: black;
+    margin: 0px;
+    padding: 18px;
+}
+
+.con{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+
+.cs{
+    background-color: rgb(67, 65, 65);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: white;
+    font-size: 14px;
+    margin: 0 auto 20px auto;
+    /* padding: 5px; */
+}
+
+.tb{
+    margin: 15px;
+}
+
+.tb:hover{
+    color: rgb(130, 130, 219);
+}
+
+.copyright{
+    font-size: 12px;
+    margin: 10px auto 25px auto;
+    color: rgb(147, 143, 143);
+}
+
+
+.corus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+}
+
+.corus img{
+    width: 100px;
+    margin: 25px;
+}
+
+.channel{
+    width: auto;
+    padding: 10px 30px 50px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.channel img{
+    width: 80px;
+    margin: 40px;
+    opacity: 0.4;
+
+}
+
+.mp:hover,
+.ph:hover{
+    opacity: .75;
+    transform: scale(1.01);
+    transition-duration: 0.2s;
+}
+.ch img:hover{
+    opacity: 1;
+}
+
+
+
